@@ -37,6 +37,8 @@ var app = {
 		alert('p1');
 		alert(location);
 		alert(location.href);
+		alert('doc: ' , document);
+		alert('ref: ' , document.referrer);
 		/*
 		alert('cordova is: ' + cordova);
 		alert('type: ' + (typeof(handleOpenURL)));
