@@ -45,11 +45,11 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="MeirPlug">
-        <param name="android-package" value="nl.xservices.plugins.MeirPlug"/>
+        <param name="android-package" value="com.promofy.plugins.MeirPlug"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/nl/xservices/plugins/MeirPlug.java" target-dir="src/nl/xservices/plugins"/>
+    <source-file src="src/android/com/promofy/plugins/MeirPlug.java" target-dir="src/com/promofy/plugins"/>
 
     <config-file target="AndroidManifest.xml" parent="/*/application/activity">
       <intent-filter>
