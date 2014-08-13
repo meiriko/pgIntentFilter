@@ -35,6 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		alert('p1');
+		alert('invokeString: ' + invokeString);
 		alert('cordova is: ' + cordova);
 		alert('type: ' + (typeof(handleOpenURL)));
 		alert('type trigger: ' + (typeof(triggerOpenURL)));
