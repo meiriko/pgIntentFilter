@@ -30,6 +30,11 @@
         <title>Hello World</title>
 		<script>
 			alert('in head!');
+		alert(location);
+		alert(location.href);
+		alert('doc: ' , document);
+		alert('ref: ' , document.referrer);
+		document.addEventListener("pause", function(){navigator.app.exitApp()}, false);
 			function handleOpenURL(url) {
 				alert('url is coming: ' + url);
 				setTimeout(function() {
