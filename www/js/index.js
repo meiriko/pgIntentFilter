@@ -37,7 +37,7 @@ var app = {
 		alert('p1');
 		alert('type: ' + (typeof(handleOpenURL)));
 		cordova.exec(
-              (typeof handleOpenURL == "function" ? handleOpenURL : null),
+              handleOpenURL,
               null,
               "LaunchMyApp",
               "checkIntent",
