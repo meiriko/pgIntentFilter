@@ -37,12 +37,15 @@ var app = {
 		alert('p1');
 		alert('cordova is: ' + cordova);
 		alert('type: ' + (typeof(handleOpenURL)));
+		alert('type trigger: ' + (typeof(triggerOpenURL)));
+		/*
 		cordova.exec(
               handleOpenURL,
               null,
               "LaunchMyApp",
               "checkIntent",
               []);
+		*/
 		// handleOpenURL('test/url/miro');
 		alert('p2');
     },
