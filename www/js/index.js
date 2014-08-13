@@ -35,7 +35,14 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		alert('p1');
-		handleOpenURL('test/url/miro');
+		alert('type: ' + (typeof(handleOpenURL)));
+		cordova.exec(
+              (typeof handleOpenURL == "function" ? handleOpenURL : null),
+              null,
+              "LaunchMyApp",
+              "checkIntent",
+              []);
+		// handleOpenURL('test/url/miro');
 		alert('p2');
     },
     // Update DOM on a Received Event
