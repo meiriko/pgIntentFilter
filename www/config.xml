@@ -42,7 +42,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 	<!-- <gap:plugin name="nl.x-services.plugins.launchmyapp"> -->
-	<gap:plugin name="comp.promofy.plugins.meirplug">
+	<gap:plugin name="com.promofy.plugins.meirplug">
 		<param name="URL_SCHEME" value="mycoolapp" />
 	</gap:plugin>
 
