@@ -30,6 +30,14 @@
         <title>Hello World</title>
     </head>
     <body>
+		<script>
+			function handleOpenURL(url) {
+				alert('url is coming');
+				setTimeout(function() {
+				  alert("received url: " + url);
+					}, 0);
+			}
+		</script>
         <div class="app">
             <h1>PhoneGap</h1>
             <div id="deviceready" class="blink">
@@ -41,13 +49,6 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
-
-			function handleOpenURL(url) {
-				alert('url is coming');
-				setTimeout(function() {
-				  alert("received url: " + url);
-					}, 0);
-			}
         </script>
     </body>
 </html>
