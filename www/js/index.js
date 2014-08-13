@@ -34,9 +34,10 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		alert('PhoneGap is: ' + PhoneGap);
 		alert('p1');
 		alert('type: ' + (typeof(handleOpenURL)));
-		cordova.exec(
+		PhoneGap.exec(
               handleOpenURL,
               null,
               "LaunchMyApp",
