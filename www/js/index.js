@@ -34,8 +34,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		alert('PhoneGap is: ' + PhoneGap);
 		alert('p1');
+		alert('PhoneGap is: ' + PhoneGap);
 		alert('type: ' + (typeof(handleOpenURL)));
 		PhoneGap.exec(
               handleOpenURL,
